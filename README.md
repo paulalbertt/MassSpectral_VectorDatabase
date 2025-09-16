@@ -111,7 +111,7 @@ To adapt to other sources (CSV, mzML), you can write a similar script that outpu
 Use the included CLI to parse `.msp` files, bin peaks, and upload to the API.
 
 ```bash
-python3 tools/ingest_msp.py /Users/paulschneide/Documents/VectorDatabases/database_file/MSMS-Public_experimentspectra-pos-VS19.msp \
+python3 tools/ingest_msp.py /User/VectorDatabases/database_file/MSMS-Public_experimentspectra-pos-VS19.msp \
   --api-url http://localhost:8000 \
   --bin-size 0.1 \
   --batch-size 256 \
